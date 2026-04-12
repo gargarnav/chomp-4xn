@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# C++ build artifacts
+*.o
+*.out
+chomp_500
+chomp_cpp
+chomp_solver
+
+# Large data files — exclude raw CSVs (too large for GitHub)
+p_positions_4xn_cpp_500.csv
+p_positions_4xn_cpp.csv
+p_positions_4xn.csv
+
+# Logs
+solver_500.log
+
+# macOS
+.DS_Store
+
+# Analysis intermediates
+fig_L2_resolution.png

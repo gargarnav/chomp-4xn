@@ -37,14 +37,6 @@ chomp-4xn/
 ├── chomp.py               # Python solver (reference implementation, n≤100)
 ├── verify.py              # Ground truth verification (2×n and 3×n subcases)
 ├── analysis.ipynb         # Full pattern analysis notebook (all 7 rounds)
-├── CONJECTURES.md         # Formal conjecture statements with evidence
-├── paper_draft.tex        # LaTeX paper draft
-├── paper_draft.md         # Markdown version of the paper
-├── figures/
-│   ├── fig2_ratio_convergence.png   # Asymptotic ratio convergence plot
-│   ├── fig3_cone.png                # 3D cone geometry visualization
-│   ├── fig4_autocorrelation.png     # Period-112 autocorrelation plot
-│   └── fig5_mask_slices.png         # Prefix mask slices at fixed c
 └── README.md
 ```
 
@@ -96,7 +88,7 @@ each building on the previous. Key outputs:
 ## Data
 
 The full P-position dataset (4,316,097 rows, ~180 MB) is available at:
-**[add Zenodo/Google Drive link here after upload]**
+**[https://doi.org/10.5281/zenodo.19543929](https://doi.org/10.5281/zenodo.19543929)**
 
 Format: CSV with columns `a, b, c, d` (no header), one P-position per row.
 

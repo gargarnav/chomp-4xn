@@ -24,3 +24,23 @@ solver_500.log
 
 # Analysis intermediates
 fig_L2_resolution.png
+
+# Paper drafts and figures (Excluded as requested)
+figures/
+paper_draft.tex
+paper_draft.md
+CONJECTURES.md
+
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.pdf
+*.synctex.gz
+
+# Scratch scripts and large logs
+analysis.txt
+append_round*.py
+extend_analysis.py
+generate_notebook.py

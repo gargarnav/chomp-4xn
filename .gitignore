@@ -4,43 +4,37 @@ __pycache__/
 *.pyo
 .ipynb_checkpoints/
 
-# C++ build artifacts
+# C++ build artifacts and binaries
 *.o
 *.out
 chomp_500
 chomp_cpp
 chomp_solver
 
-# Large data files — exclude raw CSVs (too large for GitHub)
+# Large data files — hosted on Zenodo instead
+# https://doi.org/10.5281/zenodo.19543929
 p_positions_4xn_cpp_500.csv
 p_positions_4xn_cpp.csv
 p_positions_4xn.csv
 
-# Logs
+# Log files
+*.log
 solver_500.log
+
+# Development/intermediate scripts
+append_round3.py
+append_round4.py
+append_round5.py
+extend_analysis.py
+generate_notebook.py
+
+# Intermediate analysis outputs
+analysis.txt
 
 # macOS
 .DS_Store
+.DS_Store?
+._*
 
-# Analysis intermediates
-fig_L2_resolution.png
-
-# Paper drafts and figures (Excluded as requested)
-figures/
-paper_draft.tex
-paper_draft.md
-CONJECTURES.md
-
-# LaTeX temporary files
-*.aux
-*.log
-*.out
-*.toc
-*.pdf
-*.synctex.gz
-
-# Scratch scripts and large logs
-analysis.txt
-append_round*.py
-extend_analysis.py
-generate_notebook.py
+# Jupyter
+.ipynb_checkpoints/

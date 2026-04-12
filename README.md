@@ -33,12 +33,24 @@ Verified across **4,316,097 P-positions** for all n ≤ 500. Zero violations fou
 
 ```
 chomp-4xn/
-├── chomp.cpp              # C++ solver (primary, bitpacked uint64_t)
+├── chomp.cpp              # C++ solver (primary, bitpacked uint64_t states)
 ├── chomp.py               # Python solver (reference implementation, n≤100)
 ├── verify.py              # Ground truth verification (2×n and 3×n subcases)
 ├── analysis.ipynb         # Full pattern analysis notebook (all 7 rounds)
+├── CONJECTURES.md         # Formal conjecture statements with evidence
+├── paper_draft.tex        # LaTeX paper draft
+├── paper_draft.md         # Markdown version of the paper
+├── figures/
+│   ├── fig2_ratio_convergence.png   # Asymptotic ratio convergence
+│   ├── fig3_cone.png                # 3D cone geometry
+│   ├── fig4_autocorrelation.png     # Period-112 autocorrelation
+│   └── fig5_mask_slices.png         # Prefix mask slices
 └── README.md
 ```
+
+Note: The CSV data files are NOT in this repo (too large for GitHub).
+Download the full dataset from Zenodo:
+https://doi.org/10.5281/zenodo.19543929
 
 ---
 

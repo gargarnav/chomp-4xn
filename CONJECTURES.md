@@ -47,7 +47,3 @@ where $A \approx 11/8 = 1.375$.
 **Evidence:** Visual verification in 3D scatter plots and slice-based width measurements for $c \le 300$.
 **Status:** **MODERATE**.
 
-## Next Steps
-1. **5×n Proof**: Test if the unique extension property generalizes to higher dimensions.
-2. **OEIS Submission**: Submit the lexicographical sequence of $d$-values.
-3. **Formal Paper**: "Structural Determinism and Periodicity in 4×n Chomp."

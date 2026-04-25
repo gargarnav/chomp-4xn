@@ -20,6 +20,17 @@ Verified across all 4,316,097 computed P-positions with no violations. Full conj
 
 ---
 
+## Findings
+
+| Conjecture | Statement | Status |
+|---|---|---|
+| Unique Extension | Each (a, b, c) prefix has at most one valid d | Strong (4.3M positions verified) |
+| Asymptotic Ratios | b/a → 0.762, c/a → 0.499, d/a → 0.224 | Strong (numerical) |
+| Period-112 Mask | Extending triples follow a period-112 modular structure | Moderate |
+| Linear Cone | width(c) grows roughly as (11/8)c plus a periodic correction | Moderate |
+
+---
+
 ## Files
 
 | File | Description |
@@ -32,6 +43,8 @@ Verified across all 4,316,097 computed P-positions with no violations. Full conj
 | `figures/` | Figures from the paper |
 
 The P-position CSV files are not in this repo. Download them from Zenodo at the link above.
+
+The CSV format is four columns with no header: `a, b, c, d`, one P-position per row, sorted by a.
 
 ---
 
@@ -57,6 +70,14 @@ Expected output:
 2×n subcase: PASS
 3×n subcase: PASS
 ```
+
+---
+
+## Related Work
+
+- Zeilberger (2001) gave a sub-exponential algorithm for 3×n Chomp and tabulated cases up to n = 130,000, finding linear patterns within families but no general formula.
+- Brouwer, Horvath, Molnar-Saska, and Szabo (2005) proved a cubic-time algorithm for 3×n P-positions and showed infinitely many winning first moves exist in the third row.
+- Berlekamp, Conway, and Guy, *Winning Ways for Your Mathematical Plays* (2001) covers the foundational theory, including the complete solution for 2×n Chomp.
 
 ---
 

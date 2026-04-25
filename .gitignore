@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# C++ build artifacts
+*.o
+*.out
+chomp_500
+chomp_cpp
+chomp_solver
+
+# Large data files — hosted on Zenodo
+# https://doi.org/10.5281/zenodo.19543929
+p_positions_4xn_cpp_500.csv
+p_positions_4xn_cpp.csv
+p_positions_4xn.csv
+analysis.txt
+
+# Logs
+*.log
+
+# Development scripts (not part of the paper)
+append_round3.py
+append_round4.py
+append_round5.py
+extend_analysis.py
+generate_notebook.py
+
+# 3×n solver outputs and binary (source files are tracked)
+chomp_3xn/chomp_3xn
+chomp_3xn/p_positions_3xn.csv
+chomp_3xn/winning_moves_3xn.csv
+chomp_3xn/checkpoint_3xn.bin
+chomp_3xn/figures/
+
+# Interactive visualizer (generated files)
+game_data.json
+generate_game_data.py
+visualize.html
+
+# macOS
+.DS_Store
+._*
+
+# Claude
+.claude/
